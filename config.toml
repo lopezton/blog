@@ -1,0 +1,25 @@
+baseURL = "http://blog.tonelope.com/"
+languageCode = "en-us"
+title = "Tony Lopez"
+theme = "m10c"
+
+[params]
+  author = "Tony Lopez"
+  description = "A software-writing, tennis-playing man child sharing his thoughts with the world."
+  avatar = "/tony.jpg"
+
+  [[params.social]]
+    name = "facebook"
+    url = "https://facebook.com/tony.lopez3386"
+  [[params.social]]
+    name = "instagram"
+    url = "https://instagram.com/tony.lopez1013"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/tonylopez1013"
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/tony-lopez-5587455a"
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/lopezton"

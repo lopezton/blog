@@ -23,3 +23,8 @@ theme = "m10c"
   [[params.social]]
     name = "github"
     url = "https://github.com/lopezton"
+
+[deployment]
+  [[deployment.targets]]
+    name = "prod"
+    URL = "s3://blog.tonelope.com"

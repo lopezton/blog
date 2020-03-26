@@ -1,0 +1,25 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Blog is a static web blog for Tony Lopez.",
+  "author": "Tony Lopez <tony.lopez1013@gmail.com>",
+  "license": "ISC",
+  "homepage": "http://blog.tonelope.com",
+  "main": "public/index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lopezton/blog.git"
+  },
+  "keywords": [
+    "blog",
+    "hugo",
+    "asciidoc"
+  ],
+  "scripts": {
+    "build": "hugo",
+    "start": "hugo server -D",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "hugo",
+    "deploy": "hugo deploy"
+  }
+}
